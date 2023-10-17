@@ -1,0 +1,12 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#main_container{
+    max-width: 1440px;
+    margin: auto;
+}

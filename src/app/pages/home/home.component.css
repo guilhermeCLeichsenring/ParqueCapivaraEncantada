@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-color: antiquewhite;
+
+    background-image: url('/assets/images/nationalgeographic2686439.jpg');
+    background-size: cover;
+
+    color: antiquewhite;
+
+    
+}
+
+header h1{
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px black;
+}
+
+header p{
+    font-weight: 700;
+    text-shadow: 5px 5px 10px black;
+}
+
+ .flexA{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.flexB{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+section img{
+    width: 30rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+section p{
+    text-indent: 30px;
+}
